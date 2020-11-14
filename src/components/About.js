@@ -12,7 +12,7 @@ export default function About() {
   //   setNumPages(numPages)
   // }
     return (
-     <div>
+     <div className="container">
 
      <div className="row">
       <div className="col-lg-12">
