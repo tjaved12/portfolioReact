@@ -1,11 +1,14 @@
 
 body{
-  background-image: url("back.png.png");
+  background-image: url("./images/back.png.png");
   background-color: rgb(231, 228, 228);
 }
 #text{
   font-family: 'Dancing Script', cursive;
 
+}
+p{
+  text-emphasis: strong;
 }
 #header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,7 +19,7 @@ body{
     margin: auto}
 form{
   background-color: #eebcb4}
-
+margin left: 
 
 #header h1 {
     background-color:#ca8f84;
@@ -27,7 +30,7 @@ form{
 @media (max-width: 480px) {
   /* For mobile phones: */
   .header {
-    background-image: url("back.png.png");
+    background-image: url("./images/back.png.png");
   }
 }
 .bg-light{
@@ -242,8 +245,8 @@ h2{
   }
 }
 .card-img-top {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 50px;
 }
 
   @media (max-width: 480px) {
@@ -259,7 +262,14 @@ h2{
     .card-deck {
       margin: auto
     }}
-
+    @media (max-width: 250px){
     .card{
-      background-color: #f8dfdb;
-    }
+      background-color: #f8dfdb !important;
+      max-width: 300px;
+      border-radius: 10px;
+      height: 250px;
+      width: 50px;
+      text-emphasis-color: #493531 !important;
+     
+    }}
+  
