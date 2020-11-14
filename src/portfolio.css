@@ -18,8 +18,10 @@ p{
     background-color:#ca8f84;
     margin: auto}
 form{
-  background-color: #eebcb4}
-margin left: 
+  background-color: #eebcb4;
+margin-left: 10px;
+padding: 10px;
+}
 
 #header h1 {
     background-color:#ca8f84;

@@ -27,8 +27,8 @@ export default function Contact() {
     </div>
     <textarea className="form-control" aria-label="With textarea"></textarea>
     </div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
+<br></br>
+    <button type="submit" class="btn btn-outline-secondary my-2 my-sm-0" >Submit</button>
     </form>
 
     </div>
