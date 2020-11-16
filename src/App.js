@@ -15,6 +15,7 @@ return(
           <Nav />
           <Switch>
             <Route exact path="/" component={About} />
+            <Route exact path="/portfolioReact" component={About} />
              <Route exact path="/portfolio" component={Portfolio} />
             <Route  path="/contact" component={Contact} />
           </Switch>
