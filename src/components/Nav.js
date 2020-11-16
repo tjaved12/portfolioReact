@@ -15,7 +15,7 @@ function Nav() {
 
        
       <div className="col-lg-6">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light"> 
+          <nav className="navbar navbar-expand-lg navbar-light"> 
 <ul>
        <li className="nav-item">
         {/* <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">

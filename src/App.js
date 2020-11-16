@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import About from "./Pages/About";
+import About from "./pages/About";
 import Nav from "./components/Nav";
 import "./portfolio.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Portfolio from "./Pages/Portfolio";
-import Contact from "./Pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,7 +16,7 @@ return(
           <Switch>
             <Route exact path="/" component={About} />
              <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact" component={Contact} />
+            <Route  path="/contact" component={Contact} />
           </Switch>
           <Footer/>
       </div>
