@@ -16,7 +16,7 @@ return(
           <Switch>
             <Route exact path="/" component={About} />
             <Route exact path="/portfolioReact" component={About} />
-             <Route exact path="/portfolio" component={Portfolio} />
+             <Route exact path="/portfolioReact/portfolio" component={Portfolio} />
             <Route  path="/contact" component={Contact} />
           </Switch>
           <Footer/>

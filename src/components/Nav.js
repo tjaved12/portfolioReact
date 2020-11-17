@@ -25,7 +25,7 @@ function Nav() {
     
         <li className="nav-item">
           {/* <a className="nav-link" href="../portfolioNew/contact.html">Contact Me</a> */}
-          <Link className="nav-link" to='/portfolio'>Portfolio</Link>
+          <Link className="nav-link" to='/portfolioReact/portfolio'>Portfolio</Link>
         </li>
       
         <li className="nav-item">
