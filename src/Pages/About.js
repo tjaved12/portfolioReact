@@ -1,16 +1,10 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
-//import Pdf from './Tahmeena-Resume-2020.pdf'
-//import {Document, Page} from 'react-pdf'
+
 
 export default function About() {
 
-  // const [numPages, setNumPages] = useState(null);
-  // const [pageNumber, setPageNumber] = useState(1);
 
-  // function onDocumentLoadSuccess({numPages}) {
-  //   setNumPages(numPages)
-  // }
     return (
      <div className="container">
 
@@ -23,7 +17,7 @@ export default function About() {
  </div>
 
 
-  <div className="row">
+  <div className="row" id ="containerAboutMe">
    <div className="col-lg-12">
      <img src="https://media-exp1.licdn.com/dms/image/C4E03AQF_MRGWxfiKMA/profile-displayphoto-shrink_400_400/0?e=1610582400&v=beta&t=MADfkpjK0tBa1cxcf5lcoDSAikl1AIdTA33o7tp0GvU" alt="MyImage" className="float-left" alt="..."></img>                    
           <p>
@@ -38,44 +32,13 @@ export default function About() {
       </p>
          </div>
 </div>
-<br></br>
 
-   <div className="card-deck">
 
-   <div className="card">
-           <img src="https://www.pngkey.com/png/full/892-8928473_document-logo-rsum.png" className="card-img-top" alt="..."></img> 
-              <div className="card-body">
-     <h5 className="card-title"></h5>
-        <a href='https://tjaved12.github.io/portfolioNew/Tahmeena-Resume-2020.pdf' target="_blank">Resume</a> 
-        {/* <Document file="./Tahmeena-Resume-2020.pdf"
-        onLoadSuccess={onDocumentLoadSuccess}
-        > */}
+   
 
-{/* <Page pageNumber={pageNumber} />
-         
-        </Document> */}
+<div className="col-lg-12">
   </div>
-     </div>
-
-
-<div className="card">
-      <img src="https://www.pngkit.com/png/full/14-145502_linkedin-color-icon-linkedin-logo-round-png.png" className="card-img-top" alt="..."></img>
-      <div className="card-body">
-        <h5 className="card-title"></h5>
-        <a href="https://www.linkedin.com/in/tahmeena-j/" target="_blank">LinkedIn</a> 
-      </div>
-    </div>
-
-    <div className="card">
-      <img src="https://ucarecdn.com/e1a6a747-b8b4-4dd0-b662-27fecfcfc060/" className="card-img-top" alt="..."></img>
-      <div className="card-body">
-        <h5 className="card-title"></h5>
-        <a href="https://github.com/tjaved12" target="_blank">Github</a> 
-
-      </div>
-    </div>
-  </div>
-<br></br><br></br>
+   
   </div>
 
 

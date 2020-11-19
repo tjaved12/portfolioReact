@@ -101,6 +101,9 @@ h2 {
 	background-color: #eebcb4;
 	color: black;
 }
+#containerAboutMe{
+padding-bottom:20px;
+}
 
 .float-left {
 	float: left;
@@ -277,4 +280,16 @@ p {
   padding-left:20px;
   text-emphasis: bolder;
   text-align: justify !important;
+}
+.textcolor{
+	color:  #493531 !important;
+	
+}
+.textcolor:hover{
+	color: rgb(133, 18, 18) !important;
+	
+}
+.textcolor:visited{
+	color: #f7eeec!important;
+	
 }

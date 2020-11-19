@@ -1,5 +1,6 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Pdf from '../Tahmeena-Resume-2020.pdf';
 
 function Nav() {
  
@@ -14,23 +15,26 @@ function Nav() {
           </div>  
 
        
-      <div className="col-lg-6">
+      <div className="col-lg-6  d-flex justify-content-center text-center">
           <nav className="navbar navbar-expand-lg navbar-light"> 
 <ul>
        <li className="nav-item">
-        {/* <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-         About</a> */}
+       
          <Link className="nav-link" to='/'>About</Link>
         </li>
     
         <li className="nav-item">
-          {/* <a className="nav-link" href="../portfolioNew/contact.html">Contact Me</a> */}
+         
           <Link className="nav-link" to='/portfolioReact/portfolio'>Portfolio</Link>
         </li>
       
         <li className="nav-item">
-          {/* <a className="nav-link" href="../portfolioNew/portfolio.html">Portfolio</a> */}
+        
           <Link className="nav-link" to='/contact'>Contact</Link>
+        </li>   
+        <li className="nav-item">
+          {/* <a className="nav-link" href="../portfolioNew/portfolio.html">Portfolio</a> */}
+          <a  className="nav-link" href={Pdf} target='_blank'>Resume</a>
         </li>   
  </ul>
         </nav>        
